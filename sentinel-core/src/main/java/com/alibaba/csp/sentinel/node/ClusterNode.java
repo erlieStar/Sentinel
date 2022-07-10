@@ -41,6 +41,8 @@ import com.alibaba.csp.sentinel.util.AssertUtil;
  *
  * @author qinan.qn
  * @author jialiang.linjl
+ *
+ * 不同的上下文，同一个资源，应该都是一个 ClusterNode
  */
 public class ClusterNode extends StatisticNode {
 
